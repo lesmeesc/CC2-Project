@@ -18,6 +18,9 @@ public class Fibfact {
         else if ("Factorial".equals(ff) || "factorial".equals(ff)){
             factorial();
         }
+            else{
+                Input();
+            }
         }
         static void fibonacci(){
             int bb [] = cc();
