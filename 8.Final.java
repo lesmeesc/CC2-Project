@@ -12,18 +12,13 @@ public class Fibfact {
             aa(ff);
         }
         static void aa(String ff){
-        switch (ff) {
-            case "Fibonacci":
-                fibonacci();
-                break;
-            case "Factorial":
-                factorial();
-                break;
-            default:
-                Input();
-                break;
+            if ("Fibonacci".equals(ff) || "fibonacci".equals(ff)){
+            fibonacci();
         }
-      }
+        else if ("Factorial".equals(ff) || "factorial".equals(ff)){
+            factorial();
+        }
+        }
         static void fibonacci(){
             int bb [] = cc();
             for (int i =0; i < bb.length; i++){
